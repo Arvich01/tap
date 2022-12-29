@@ -1,0 +1,119 @@
+@font-face {
+    font-family: ofont;
+    src: url(../font/cd2f1-36d91_sunday.ttf);
+}
+body{
+    background: rgb(220, 201, 255);
+    font-family: ofont;
+}
+.container{
+    width: 400px;
+    margin: 10px auto;
+    border: 5px solid rgb(46, 30, 56);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    color:rgb(250, 109, 255);
+}
+ul{
+padding: 0;
+margin: 0;
+
+}
+ul li{
+    list-style-type: none;
+   border: 1px solid rgb(255, 255, 255);
+   vertical-align: top;
+   line-height: 48px;
+    
+}
+
+.taskList div{
+    display: inline-block;
+}
+.taskList div:first-child{
+width: 268px;
+text-align: left;
+
+}
+.taskList div:last-child{
+width:120px;
+text-align: right;
+}
+.taskNo{
+border: none;
+
+}
+.taskNo h2,
+form h2{
+text-align: center;
+margin: 0;
+letter-spacing: 3px;
+
+}
+.taskNo img{
+width: 100px;
+display: block;
+margin: 5px auto;
+ border-radius: 5px;
+ box-shadow: 1px 1px 32px #123;
+}
+.Yes{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(../img/Yes.png);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.No{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(../img/NO.png);
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+form input{
+display: block;
+width: 95%;
+margin: 5px auto;
+padding: 5px;
+border-radius: 5px;
+}
+form button{
+    display: block;
+    width: 65%;
+    margin: 5px auto;
+    padding: 10px 0;
+    border-radius: 7px;
+    background: rgb(20, 117, 214);
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    border: none;
+    transition: 1s;
+    font-family: ofont;
+
+}
+form button:hover{
+    background: #eee;
+    color: rgb(20, 117, 214); 
+    transition: 1s;
+}
+.displayNone{
+    display: none;
+}
+.editTask{
+    color:rgb(0, 4, 255);
+    text-decoration: line-through;
+}
